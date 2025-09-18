@@ -1,9 +1,13 @@
 import Page from './Component/Page';
 import ThemeContextProvider from './store/ThemeContextProvider';
 function App() {
-    <ThemeContextProvider>
-  return <Page/>
+    
+  return (
+  <ThemeContextProvider>
+  <Page />;
   </ThemeContextProvider>
+  );
 }
+
 
 export default App;
